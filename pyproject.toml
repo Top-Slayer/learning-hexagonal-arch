@@ -1,12 +1,19 @@
+[project]
+name = "learning-hexagonal-arch"
+version = "0.1.0"
+description = "Example hexagonal architecture"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "codon-jit>=0.4.6",
+    "fastapi>=0.136.1",
+    "numpy>=2.4.4",
+    "uvicorn>=0.46.0",
+]
+
 [build-system]
 requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
-
-[project]
-name = "multiple-language-hexagoanl-arch"
-version = "0.1.0"
-description = "Hexagonal architecture sample"
-requires-python = ">=3.14"
 
 [tool.setuptools]
 package-dir = {"" = "."}
